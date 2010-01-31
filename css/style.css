@@ -153,6 +153,9 @@ div#messages div.message-error {
 ul.primary {
   border-bottom: 0;
 }
+div.tabs {
+  height: 2.5em;
+}
 div.tabs ul li {
   padding-left: 0;
   background-image: none;
@@ -236,6 +239,51 @@ div.node h2 a {
 div.node div.meta span.submitted {
   color: #A5A5A5;
   font-size: 1.23em;
+}
+div.node div.field-type-taxonomy-term-reference {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+div.node div.field-type-taxonomy-term-reference div.field-label {
+  color: #404040;
+  display: inline;
+  font-weight: bold;
+}
+div.node div.field-type-taxonomy-term-reference div.field-items,
+div.node div.field-type-taxonomy-term-reference div.field-items div.field-item {
+  display: inline;
+}
+div.node div.field-type-taxonomy-term-reference div.field-items div.field-item a {
+  text-decoration: none;
+  font-weight: bold;
+}
+div.node div.field-type-taxonomy-term-reference div.field-items div.field-item a:after {
+    content: ",";
+}
+div.node div.field-type-taxonomy-term-reference div.field-items div.field-item:last-child a:after {
+    display: none;
+}
+div.node ul.links li {
+  float: left;
+  margin-right: 0.5em;
+  padding-left: 0;
+  margin-bottom: 1em;
+  background: none;
+}
+div.node ul.links li a {
+  font-weight: bold;
+  font-size: 1em;
+  padding: 9px 20px;
+  text-decoration: none;
+  background-color: #9cc426;
+  color: #f4f8e6;
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+}
+div.node ul.links li a:hover {
+  background-color: #b4da41;
+  color: #ffffff;
 }
 
 /** Blocks **/
