@@ -1,0 +1,29 @@
+/* $Id$ */
+
+div#page {
+  max-width: 1280px;
+  min-width: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div#content {
+  float: left;
+}
+
+body.two-sidebars div#content {
+  width: 51.5%
+}
+
+body.sidebar-first div#content {
+  width: 69.5%
+}
+
+body.sidebar-second div#content {
+  width: 81.5%
+}
+
+div#sidebar-first {
+  width: 30%;
+  float: right;
+}

@@ -1,0 +1,13 @@
+name = Kiwi
+# TODO: Come up with a better description
+description = Kiwi - flexible Drupal theme
+# TODO: Take a screenshot
+screenshot = screenshot.png
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/elements.css
