@@ -56,4 +56,3 @@ function kiwi_status_messages($variables) {
 function kiwi_preprocess_block(&$variables) {
   $variables['classes_array'][] = 'block-position-' . $variables['block_id'];
 }
-

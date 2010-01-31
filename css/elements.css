@@ -22,7 +22,8 @@ table th,
 table td {
   padding: 1em 1.15em;
 }
-table thead {
+table thead,
+table thead a {
   background-color: #434343;
   color: #f5f5ee;
 }
